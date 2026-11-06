@@ -2,6 +2,30 @@ import './style.css'
 import { nextPrime } from './prime.js'
 
 document.querySelector('#app').innerHTML = `
+  <header class="site-header">
+    <div class="site-header-inner">
+      <svg class="site-logo" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <rect width="32" height="32" rx="6" fill="#0d0f12"/>
+        <rect x="3"  y="3"  width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="10" y="3"  width="5" height="5" rx="1" fill="#4fc3f7"/>
+        <rect x="17" y="3"  width="5" height="5" rx="1" fill="#4fc3f7"/>
+        <rect x="24" y="3"  width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="3"  y="10" width="5" height="5" rx="1" fill="#4fc3f7"/>
+        <rect x="10" y="10" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="17" y="10" width="5" height="5" rx="1" fill="#4fc3f7"/>
+        <rect x="24" y="10" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="3"  y="17" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="10" y="17" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="17" y="17" width="5" height="5" rx="1" fill="#4fc3f7"/>
+        <rect x="24" y="17" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="3"  y="24" width="5" height="5" rx="1" fill="#4fc3f7"/>
+        <rect x="10" y="24" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="17" y="24" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+        <rect x="24" y="24" width="5" height="5" rx="1" fill="#4fc3f7" opacity="0.2"/>
+      </svg>
+      <span class="site-title">素数计算器</span>
+    </div>
+  </header>
   <div class="container">
     <h1>素数计算器</h1>
     <p class="subtitle">输入任意整数，找出比它更大的第一个素数</p>
